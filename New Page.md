@@ -1,7 +1,7 @@
 ---
 layout: page
 title: New Page
-permalink: /:-)
+permalink: /:-)/
 ---
 
 This is a test page.
