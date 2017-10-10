@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: linear-gradient(90deg, #d9d9d9, #f9cf00);;
+	background: linear-gradient(180deg, $themeyellow, $themeblue);;
   font: 18px/1.4 $helvetica;
-  color: $black;
+  color: $themeblack;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $themeblack;
   font-weight: bold;
 
   line-height: 1.7;
