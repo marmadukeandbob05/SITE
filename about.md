@@ -4,10 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I.T. is the best subject!!!
 
 ### More Information
 
 Testing
-
-### Contact me
