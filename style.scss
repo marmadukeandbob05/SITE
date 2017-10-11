@@ -26,9 +26,10 @@ body {
 .container {
 background: $themegrey;
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
+  max-width: 800px;
+  padding: 0 15px;
+  width: 125%;
+  border: 25px solid $themeblue;
 }
 
 h1, h2, h3, h4, h5, h6 {
