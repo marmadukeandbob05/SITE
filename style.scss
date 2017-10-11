@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $themeyellow;
+	background: $themeblack;
   font: 18px/1.4 $helvetica;
-  color: $themeblack;
+  color: $themesilver;
 }
 
 .container {
@@ -30,7 +30,7 @@ background: $themegrey;
   padding: 0 15px;
   width: 100%;
   border-radius: 20px;
-  border: 10px solid $themeblue;
+  border: 10px solid $themepurple;
 }
 
 h1, h2, h3, h4, h5, h6 {
