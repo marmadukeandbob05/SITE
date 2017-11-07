@@ -1,5 +1,5 @@
 ---
-title:  Learning how to publish blog posts from Google Docs using Gabriel
+title:  Learning how to publish blog posts from Google Docs using Gabriel 2
 layout: post
 author: benjamin.sommer
 permalink: /-learning-how-to-publish-blog-posts-from-google-docs-using-gabriel/
@@ -42,7 +42,7 @@ published: true
     <td>I used perseverance when I tried to add a border to the container but i couldn't figure out what was going wrong so I kept trying to find a solution and eventually i came to one.  </td>
   </tr>
   <tr>
-    <td>Questioning?</td>
+    <td>Questioning</td>
     <td>I questioned the different types of edgings for a box for example; border, padding and margin.</td>
   </tr>
   <tr>
