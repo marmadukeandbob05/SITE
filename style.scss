@@ -33,10 +33,10 @@ body {
   border: 5px solid #ff1c2e;
 }
 
-tr
-	{
-		color:#ff1c2e;
-	}
+table, th, td {
+   color:#ff1c2e;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
