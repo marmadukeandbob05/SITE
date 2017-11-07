@@ -8,6 +8,7 @@ published: true
 ---
 <table>
   <tr>
+    color:#ff1c2e
     <td>Title</td>
     <td>Learning how to publish blog posts from Google Docs using Gabriel</td>
     <td>Date</td>
