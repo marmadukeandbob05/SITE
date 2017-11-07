@@ -35,6 +35,11 @@ body {
 
 table, th, td {
    color:#ff1c2e;
+   border: 1px solid #000000;
+}
+
+table {
+    border-collapse: collapse;
 }
 
 
