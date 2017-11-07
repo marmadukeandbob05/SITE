@@ -1,5 +1,5 @@
 ---
-title:  Learning how to publish blog posts from Google Docs using Gabriel 2
+title: testing 2
 layout: post
 author: benjamin.sommer
 permalink: /-learning-how-to-publish-blog-posts-from-google-docs-using-gabriel/
