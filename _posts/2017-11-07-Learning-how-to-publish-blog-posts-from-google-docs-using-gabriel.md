@@ -1,5 +1,5 @@
 ---
-title: Learning how to Publish blog posts using Gabriel
+title: Learning how to publish blog posts from google docs using gabriel
 layout: post
 author: benjamin.sommer
 permalink: /learning-how-to-publish-blog-posts-from-google-docs-using-gabriel/
@@ -35,8 +35,11 @@ published: true
 <table>
   <tr>
     <td>How did you use your learning habits this week?</td>
-    <td></td>
   </tr>
+</table>
+
+
+<table>
   <tr>
     <td>Persevering</td>
     <td>I used perseverance when I tried to add a border to the container but i couldn't figure out what was going wrong so I kept trying to find a solution and eventually i came to one.  </td>
