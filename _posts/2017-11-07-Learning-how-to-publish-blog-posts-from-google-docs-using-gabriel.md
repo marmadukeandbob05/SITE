@@ -66,11 +66,9 @@ published: true
 <table>
   <tr>
     <td>What could have gone better in your learning?</td>
-    <td></td>
   </tr>
   <tr>
     <td>I think my learning could have gone better if i tried to investigate how to make the container have a picture border. I also think that it would have been better if i had decorated the header a bit more.</td>
-    <td></td>
   </tr>
 </table>
 
@@ -78,11 +76,9 @@ published: true
 <table>
   <tr>
     <td>What changes do you need to make to improve your learning next time?</td>
-    <td></td>
   </tr>
   <tr>
     <td>Next time, I could improve my learning by being curious to find out what each part of the "style.css"  file did, and how i can adapt them to enhance the visual appearance of my blog. I could also try out different colour schemes to see if that made it more visually appealing.</td>
-    <td></td>
   </tr>
 </table>
 
