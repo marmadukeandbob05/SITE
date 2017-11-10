@@ -29,7 +29,8 @@ body {
   max-width: 800px;
   padding: 0 15px;
   width: 100%;
-  border-image: url(https://comput3rz.github.io/images/Cool_background-8.jpg) 30 round;
+  border-image-source: url(comput3rz.github.io/images/Cool_background-8.jpg);
+  border-image-repeat: repeat;
 }
 
 table, th, td {
