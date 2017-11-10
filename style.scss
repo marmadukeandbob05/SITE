@@ -23,15 +23,15 @@ body {
   color: $themesilver;
 }
 
+
+
 .container {
   background-image: url("comput3rz.github.io/images/White Background.jpg");
   margin: 0 auto;
   max-width: 800px;
   padding: 0 15px;
   width: 100%;
-  border-image-source: url(comput3rz.github.io/images/Cool_background-8.jpg);
-  border-image-repeat: repeat;
-}
+  border-image: url("comput3rz.github.io/images/Cool_background-8.jpg");
 
 table, th, td {
    color:#9b0c0c;
