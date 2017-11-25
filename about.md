@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I.T. is the best subject!!!
+## About Me
 
-### More Information
+I like coding games in scratch, designing web pages and blogging about my latest projects.
 
-Testing
+## Any Questions?
+
