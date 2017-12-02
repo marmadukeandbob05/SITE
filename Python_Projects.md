@@ -3,9 +3,6 @@ layout: page
 title: Python Projects
 permalink: /python_projects/
 ---
-
-<h1>Python Projects</h1>
-
 This is where all my python projects will be displayed.
 
 <h2>Maths Game</h2>
