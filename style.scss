@@ -45,11 +45,15 @@ a:link {
 }
 
 .container2 {
-  background-color: #000000;
+ background-image: url("comput3rz.github.io/images/White Background.jpg");
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 800px;
   padding: 0 15px;
   width: 100%;
+  border-width: 10px;
+  border-color: #ef1515;
+  border-radius: 25px;
+  border-style: solid ;
   border-image-repeat: repeat;
 }
 
