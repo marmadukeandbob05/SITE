@@ -38,20 +38,7 @@ a:link {
   padding: 0 15px;
   width: 100%;
   border-width: 10px;
-  border-color: #ffffff;
-  border-radius: 25px;
-  border-style: solid ;
-  border-image-repeat: repeat;
-}
-
-.container2 {
-  background-color: #ffffff;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 0 15px;
-  width: 100%;
-  radius: 25px;
-  border-width: 10px;
+  border-color: #9b0c0c;
   border-radius: 25px;
   border-style: solid ;
   border-image-repeat: repeat;
@@ -108,11 +95,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #440d12;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #000000;
   }
 }
 
@@ -235,8 +222,8 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
+  font-size: 50px;
+  letter-spacing: 5px;
 }
 
 .site-description {
@@ -253,7 +240,8 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 35px;
+  font-weight: bold;
 
   @include mobile {
     float: none;
@@ -281,8 +269,8 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  padding-bottom: 5em;
+  border-bottom: 0px solid $lightGray;
 }
 
 .posts > .post:last-child {
