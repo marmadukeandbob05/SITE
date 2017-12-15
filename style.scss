@@ -18,9 +18,10 @@ html {
 }
 
 body {
-  background-image: url("comput3rz.github.io/images/wallpapers-4k-black-wallpaper-triangulations-4k-wallpaper-by-abdoubouam-on-deviantart-hd-wallpapers-background.jpg");
+  /* background-image: url("comput3rz.github.io/images/wallpapers-4k-black-wallpaper-triangulations-4k-wallpaper-by-abdoubouam-on-deviantart-hd-wallpapers-background.jpg"); */
   font: 18px/1.4 $helvetica;
   color: $themesilver;
+  background-color: #000000;
 }
 
 
@@ -50,8 +51,8 @@ a:link {
   max-width: 800px;
   padding: 0 15px;
   width: 100%;
+  radius; 25px;
   border-width: 10px;
-  border-color: #ef1515;
   border-radius: 25px;
   border-style: solid ;
   border-image-repeat: repeat;
