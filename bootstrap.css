@@ -6,6 +6,7 @@
  */
 :root {
   --blue: #007bff;
+  --dblue: #034b99;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -8897,3 +8898,15 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+nav {
+  color: #034b99;
+}
+
+.site-name {
+  color: #034b99;
+}
+
+a {
+  color: #034b99;
+}
