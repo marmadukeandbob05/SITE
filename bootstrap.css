@@ -8908,4 +8908,6 @@ nav {
  font-color: #034b99
 }
 
-
+td, th, table {
+  border-spacing: 0.5rem;
+  border: 3px solid #000000;
