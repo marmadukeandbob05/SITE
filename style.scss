@@ -237,11 +237,12 @@ img {
 }
 
 nav {
-  float: center;
+  float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 20px;
   font-weight: bold;
+  padding: 60px 0;
 
   @include mobile {
     float: none;
