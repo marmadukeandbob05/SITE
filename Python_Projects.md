@@ -23,5 +23,4 @@ This is where all my python projects will be displayed.
 
 
 <h2>Easy Email Module</h2>
-
-<p>Module is on github</p>
+<a href="https://github.com/marmadukeandbob05/Easy-Emailer">Repo</a>
