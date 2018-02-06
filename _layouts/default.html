@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
  </head>
-<body id="main_body" >
-	
-	<img id="top" src="top.png" alt="">
-	<div id="form_container">
-	
-		<h1><a>Email Notifications</a></h1>
-		<form id="form_70645" class="appnitro"  method="post" action="">
-					<div class="form_description">
-			<p>Subscribe to get notified about new versions.</p>
-		</div>						
-			<ul >
-			
-					<li id="li_1" >
-		<label class="description" for="element_1">Name </label>
-		<div>
-			<input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255" value=""/> 
-		</div><p class="guidelines" id="guide_1"><small>enter your name</small></p> 
-		</li>		<li id="li_2" >
-		<label class="description" for="element_2">Email Address </label>
-		<div>
-			<input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/> 
-		</div><p class="guidelines" id="guide_2"><small>enter your email address</small></p> 
-		</li>
-			
-					<li class="buttons">
-			    <input type="hidden" name="form_id" value="70645" />
-			    
-				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
-		</li>
-			</ul>
-		</form>	
-		
-	</div>
-	<img id="bottom" src="bottom.png" alt="">
-	</body>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Email Notifications</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Text Input</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+  <span class="help-block">help</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email Address</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="enter your email" class="form-control input-md" required="">
+  <span class="help-block">help</span>  
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="register">Subscribe</label>
+  <div class="col-md-4">
+    <button id="register" name="register" class="btn btn-primary">Subscribe</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
 </html>
