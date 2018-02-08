@@ -23,4 +23,4 @@ This is where all my python projects will be displayed.
 
 
 <h2>Easy Email Module</h2>
-<p>I have made a python module which enables the user to send emails with gmail, yahoo, icloud and a custom service, all using python. Check the GitHub page out </p><a href="https://github.com/marmadukeandbob05/Easy-Emailer">here</a>
+<p>I have made a python module which enables the user to send emails with gmail, yahoo, icloud and a custom service, all using python. Check the GitHub page out <a href="https://github.com/marmadukeandbob05/Easy-Emailer">here</a></p>
