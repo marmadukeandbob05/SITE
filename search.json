@@ -23,6 +23,15 @@
     }, 
   {
     
+      "title"    : "Comput3rz",
+      "url"      : "{{ site.baseurl }}/about",
+      "category" : "",
+      "tags"     : "",
+      "date"     : "About Me"
+      
+    }, 
+  {
+    
       "title"    : "Scratch Blog",
       "url"      : "{{ site.baseurl }}/blog1/index",
       "category" : "",
