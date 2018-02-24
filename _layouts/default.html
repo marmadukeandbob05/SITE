@@ -35,10 +35,16 @@
           </div
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/scratch_projects">Scratch Projects</a>
-            <a href="{{ site.baseurl }}/python_projects">Python Projects</a>
+            <form>
+              <div class="evenspace">
+                <input class="navButton" type="button" value="Blog" onclick="window.location.href='{{ site.baseurl }}/'" />
+                <input class="navButton" type="button" value="Scratch Blog" onclick="window.location.href='{{ site.baseurl }}/blog1/index.html'" />
+                <input class="navButton" type="button" value="Python Blog" onclick="window.location.href='{{ site.baseurl }}/blog2/index.html'" />
+                <input class="navButton" type="button" value="About" onclick="window.location.href='{{ site.baseurl }}/about'" />
+                <input class="navButton" type="button" value="Scratch Projects" onclick="window.location.href='{{ site.baseurl }}/scratch_projects'" />
+                <input class="navButton" type="button" value="Python Projects" onclick="window.location.href='{{ site.baseurl }}/python_projects'" />
+              </div>
+             </form>
           </nav>
          
       </div>
