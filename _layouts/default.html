@@ -113,11 +113,12 @@
       </script>
         
     <script>
+     $('#search-result-container').hide();
      $('#search-input')
     .on('keyup', function(e) {
     var input = $(this).val();
     input.length ?
-            $('#search-result-container').show() :
+      $('#search-result-container').show() :
       $('#search-result-container').hide();
   })
     </script>
