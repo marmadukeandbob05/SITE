@@ -8,7 +8,9 @@ title: jQuery Test
 <p>Test Click Me</p>
 
 <script>
-$("p").click(function(){
-    $(this).hide();
+$('#search-input').blur(function () {
+  if ($('input:text').is(":empty")) {
+    $("#search-result-container").hide();
+  }
 });
 </script>
