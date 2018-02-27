@@ -79,7 +79,7 @@
 
       <!-- Html Elements for Search -->
       <div id="search-container">
-      <input type="text" id="search-input" placeholder="&#128270; type to search...">
+      <input type="text" name="search-input" id="search-input" placeholder="&#128270; type to search...">
 
     <h1></h1>
     <h1></h1>
@@ -92,7 +92,7 @@
       <h1></h1>
       <h1></h1>
 
-      <div class="container" id="search-result-container">
+      <div class="container" id="search-result-container" class="show_hide">
 
       <ul id="results-container"></ul>
 
@@ -113,14 +113,21 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <script>
+      // Bind keyup event on the input
+      $('#search-input').keyup(function() {
 
-<script>
-$('#search-input').blur(function () {
-  if ($('input:text').is(":empty")) {
-    $("#search-result-container").hide();
-  }
-});
-</script>
+        // If value is not empty
+        if ($(this).val().length == 0) {
+          // Hide the element
+          $('.show_hide').hide();
+        } else {
+          // Otherwise show it
+          $('.show_hide').show();
+        }
+      }).keyup(); // Trigger the keyup event, thus running the handler on page load
+  </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         
 
 
