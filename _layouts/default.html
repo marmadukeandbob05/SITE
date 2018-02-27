@@ -114,20 +114,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <script>
-      // Bind keyup event on the input
-      $('#search-input').keyup(function() {
-
-        // If value is not empty
-        if ($(this).val().length == 0) {
-          // Hide the element
-          $('.show_hide').hide();
-        } else {
-          // Otherwise show it
-          $('.show_hide').show();
-        }
-      }).keyup(); // Trigger the keyup event, thus running the handler on page load
+      $('#search-input').on('input', function(){
+          $(this).next('div.show_hide').toggle($.trim(this.value) != "");
+      });
   </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
         
 
 
