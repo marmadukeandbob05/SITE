@@ -17,33 +17,50 @@ html {
   font-size: 100%;
 }
 
-@keyframes slideInFromLeft {
+@keyframes slideInFromLeftB {
   0% {
     transform: translateX(-100%);
-
+    transform: translateY(100%);
 	  
   }
   100% {
     transform: translateX(0);
-
+    transform: translateY(0);
   }
 }
 
-
-
-@keyframes slideInFromRight {
+@keyframes slideInFromLeftA {
   0% {
-    transform: translateX(100%);
-
+    transform: translateX(-100%);
+    transform: translateY(-100%);
   }
   100% {
     transform: translateX(0);
-
+    transform: translateY(0);
   }
 }
 
+@keyframes slideInFromRightA {
+  0% {
+    transform: translateX(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+}
 
-
+@keyframes slideInFromRightB {
+ 0% {
+    transform: translateX(100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+}
 
 
 body {
@@ -524,5 +541,4 @@ a.pure-button-selected {
 .hidestuff {
   display: none
 }
-
 
