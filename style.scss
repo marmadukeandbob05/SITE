@@ -44,6 +44,10 @@ a:link {
   border-image-repeat: repeat;
 }
 
+.container:empty {
+   display: none;
+}
+
 table, th, td {
    color:#9b0c0c;
    padding: 5px;
