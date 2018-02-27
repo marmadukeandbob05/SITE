@@ -17,50 +17,33 @@ html {
   font-size: 100%;
 }
 
-@keyframes slideInFromLeftB {
+@keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
-    transform: translateY(100%);
+
 	  
   }
   100% {
     transform: translateX(0);
-    transform: translateY(0);
+
   }
 }
 
-@keyframes slideInFromLeftA {
-  0% {
-    transform: translateX(-100%);
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateX(0);
-    transform: translateY(0);
-  }
-}
 
-@keyframes slideInFromRightA {
+
+@keyframes slideInFromRight {
   0% {
     transform: translateX(100%);
-    transform: translateY(100%);
+
   }
   100% {
     transform: translateX(0);
-    transform: translateY(0);
+
   }
 }
 
-@keyframes slideInFromRightB {
- 0% {
-    transform: translateX(100%);
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateX(0);
-    transform: translateY(0);
-  }
-}
+
+
 
 
 body {
