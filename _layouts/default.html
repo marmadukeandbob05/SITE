@@ -114,8 +114,20 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <script>
-      $('#search-input').on('input', function(){
-          $(this).next('div.show_hide').toggle($.trim(this.value) != "");
+      $(document).ready(function() {
+
+        if($('#search-input').val() == '' ){$('.twitter').hide();}  
+
+        $('#search-input').on('change' , function() {
+
+             if( this.value != ''){
+
+                   $('#search-result-container').show(); 
+              }
+              else{
+                   $('#search-result-container').hide(); 
+             }
+        });
       });
   </script>
 
