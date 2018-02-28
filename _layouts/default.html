@@ -92,7 +92,7 @@
       <h1></h1>
       <h1></h1>
 
-      <div class="container" id="search-result-container" class="hidestuff" >
+      <div class="container hidestuff" id="search-result-container">
 
       <ul id="results-container"></ul>
 
@@ -123,6 +123,16 @@
     
   })
     </script>
+        
+       <script>
+         $('#search-input').on('input', function(e) {
+  var input = $.trim( this.value );
+  if ( input.length > 0 )
+    $('#search-result-container').stop().slideDown();
+  else
+    $('#search-result-container').stop().slideUp();
+});
+        </script>
 
  
         
