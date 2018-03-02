@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <a name="top"></a>
+    <link rel="shortcut icon" href="http://www.iconarchive.com/download/i95774/iconsmind/outline/Code-Window.ico" />
+
+    <p>
+
+    </p>
+    <title>Ben's AMAZING Website</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container" style="animation: 1s ease-out 0s 1 slideInFromLeftA;">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="bluestuff">
+            <div class="site-info">
+              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+              <p class="site-description">{{ site.description }}</p>
+            </div>
+          </div
+
+          <nav>
+            <form>
+              <div class="evenspace" style="display: flex;justify-content: space-around;">
+                <input class="navButton" type="button" value="Blog" onclick="window.location.href='{{ site.baseurl }}/'" />
+                <input class="navButton" type="button" value="Scratch Blog" onclick="window.location.href='{{ site.baseurl }}/blog1/'" />
+                <input class="navButton" type="button" value="Python Blog" onclick="window.location.href='{{ site.baseurl }}/blog2/'" />
+                <input class="navButton" type="button" value="About" onclick="window.location.href='{{ site.baseurl }}/about'" />
+                <input class="navButton" type="button" value="Scratch Projects" onclick="window.location.href='{{ site.baseurl }}/scratch_projects'" />
+                <input class="navButton" type="button" value="Python Projects" onclick="window.location.href='{{ site.baseurl }}/python_projects'" />
+              </div>
+             </form>
+          </nav>
+
+      </div>
+    </div>
+
+    <div class="container" style="padding-top: 25px;animation: 1s ease-out 0s 1 slideInFromRightA;">
+      <style>
+        input {
+          width: 100%;
+          padding: 25px 25px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          border: 4px solid #ff1c2e;
+          border-radius: 6px;
+          background-color: #f6f8f5;
+          color: #000;
+          font-size: 15px;
+        }
+
+        input::placeholder {
+          font-size: 15px;
+        }
+
+        input:focus {
+          border: 3px solid #555;
+        }
+
+        h2.searchresults{
+          color: #b5b9bf;
+        }
+      </style>
+
+      <!-- Html Elements for Search -->
+      <div id="search-container">
+      <input type="text" name="search-input" id="search-input" placeholder="&#128270; type to search...">
+
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+      </div>
+      </div>
+
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+
+      <div class="container hidestuff" id="search-result-container">
+
+      <ul id="results-container"></ul>
+
+      <!-- Script pointing to search-script.js -->
+      <script src="https://comput3rz.github.io/js/search-script.js" type="text/javascript"></script>
+
+      <!-- Configuration -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <script>
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate: '<a href="{url}"><h1>{title}</h1></a><h2 class="searchresults">{date}</span></h2>',
+        json: 'https://comput3rz.github.io/search.json'
+      })
+      </script>
+
+    <script>
+     $('#search-result-container').hide();
+     $('#search-input')
+    .on('keyup', function(e) {
+    var input = $(this).val();
+    input.length ?
+      $('#search-result-container').show() :
+      $('#search-result-container').hide();
+
+  })
+    </script>
+
+       <script>
+         $('#search-input').on('input', function(e) {
+  var input = $.trim( this.value );
+  if ( input.length > 0 )
+    $('#search-result-container').stop().slideDown();
+  else
+    $('#search-result-container').stop().slideUp();
+});
+        </script>
+
+
+
+
+
+    </div>
+    </div>
+
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+
+      {{ content }}
+
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <div id="main" role="main" class="container" style="text-align: center;animation: 1s ease-out 0s 1 slideInFromRightB">
+      <h1>Find me on <a href="https://github.com/Comput3rZ">GitHub</a></h1>
+      <button class="pure-button" onclick="window.location.href='#top'" style="padding: 10px;">Back to Top</button>
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <h1></h1>
+    <h1></h1>
+
+    {% include analytics.html %}
+
+  </body>
+</html>
