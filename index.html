@@ -30,17 +30,6 @@ layout: default
 </style>
 
 
-<div class="container">
-    <div class="PageNavigation">
-      {% if page.previous.url %}
-        <button class="prev" onclick="window.location.href='{{page.previous.url}}'">&laquo; {{page.previous.title}}</button>
-      {% endif %}
-      {% if page.next.url %}
-        <button class="next" onclick="window.location.href='{{page.next.url}}'">&raquo; {{page.next.title}}</button>
-      {% endif %}
-    </div>
-</div>
-
 <style>
   .pagination {
     font-size: 15px;
@@ -55,7 +44,7 @@ layout: default
 </style>
 
 
-<div class="container">
+<hr>
   <div class="pagination">
     {% if paginator.previous_page %}
       <button class="Pprevious" onclick="window.location.href='{{paginator.previous_page_path}}'">Previous</button>
@@ -65,4 +54,3 @@ layout: default
       <button class="Pnext" onclick="window.location.href='{{paginator.next_page_path}}'">Next</button>
     {% endif %}
   </div>
-</div>
