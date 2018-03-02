@@ -553,13 +553,13 @@ a.pure-button-selected {
 }
 
 .PageNavigation {
-  font-size: 14px;
+  font-size: 20px;
   display: block;
   width: auto;
   overflow: hidden;
 }
 
-.PageNavigation a {
+.PageNavigation button {
   display: block;
   width: 50%;
   float: left;
@@ -569,4 +569,26 @@ a.pure-button-selected {
 .PageNavigation .next {
   text-align: right;
 }
+
+.PageNavigation button {
+    background-color: #ff1c2e;
+    border: none;
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.PageNavigation button:hover {
+    background-color: #666;
+    color: #ffffff;
+}
+
+
+
+
 
