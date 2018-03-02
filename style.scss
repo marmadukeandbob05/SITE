@@ -561,9 +561,9 @@ a.pure-button-selected {
 }
 
 .PageNavigation button {
-  display: block;
   float: left;
   margin: 1em 0;
+  display: inline-block;
 }
 
 .PageNavigation .next {
