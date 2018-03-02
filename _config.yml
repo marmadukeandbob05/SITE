@@ -86,3 +86,6 @@ exclude:
   - CNAME
 
 iis_slider_array: []
+
+paginate: 5
+paginate_path: "page:num"
