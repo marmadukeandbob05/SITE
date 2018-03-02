@@ -594,4 +594,48 @@ button.next {
     float: right;
 }
 
+.pagination {
+  font-size: 20px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+}
+
+.PageNavigation button {
+  float: left;
+  margin: 1em 0;
+  display: inline-block;
+}
+
+.pagination .next {
+  text-align: right;
+}
+
+.pagination button {
+    background-color: #ff1c2e;
+    border: none;
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.pagination button:hover {
+    background-color: #666;
+    color: #ffffff;
+}
+
+
+button.Pnext {
+    float: right;
+}
+
+
 
