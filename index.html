@@ -35,7 +35,7 @@ layout: default
     font-size: 15px;
   }
   
-  .pageprogress {
+  #pageprogress {
     color: #000000;
     font-weight: bold;
   }
@@ -49,10 +49,10 @@ layout: default
     {% if paginator.previous_page %}
       <button class="Pprevious" onclick="window.location.href='{{paginator.previous_page_path}}'">Previous</button>
     {% endif %}
-    <span id="pageprogress" class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
       <button class="Pnext" onclick="window.location.href='{{paginator.next_page_path}}'">Next</button>
     {% endif %}
   </div>
 
+<h1 id="pageprogress" class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</h1>
 <h1></h1>
