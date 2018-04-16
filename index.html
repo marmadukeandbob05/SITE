@@ -7,9 +7,9 @@ layout: default
 
 
 
-<div class="posts">
+<div class="posts" id="posts">
   {% for post in site.posts %}
-    <article class="post">
+    <article class="post" id="post">
 
      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
@@ -46,4 +46,11 @@ layout: default
 </style>
 
 <br>
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+<script>
+  window.sr = ScrollReveal();
+  sr.reveal('.post', { container: '#posts' });
+</script>
 
